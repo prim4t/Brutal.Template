@@ -404,8 +404,9 @@ padding-top: 0px;
   bottom: 0;
   left: 0;
   cursor: pointer;
-
-background-position: top center; 
+  background-color: var(--bg);
+  background-image: var(--pattern); 
+  background-position: top center; 
 
 }
 
@@ -425,19 +426,18 @@ background-position: top center;
 .modal__inner {
 
   position: absolute;
-  top: -10%;
+  top: 10%;
   right: 0;
   bottom: 0;
   left: 0;
-max-width: 60em;
+max-width: 40em;
   margin: auto;
   overflow: auto;
   border: 5px solid var(--color4);
   background-color: var(--bg);
-  color: var(--bg); 
   border-radius: 5px;
-  padding: 1em 2em;
-  height: 35em;
+  padding: 4em 2em;
+  height: 80%;
 
 
 }
@@ -446,8 +446,8 @@ max-width: 60em;
   position: absolute;
   right: 1em;
   top: 1em;
-  width: 1.1em;
-  height: 1.1em;
+  width: 2.1em;
+  height: 2.1em;
   cursor: pointer;
 }
 
@@ -456,7 +456,7 @@ max-width: 60em;
   content: '';
   position: absolute;
   width: 5px;
-  height: 1.5em;
+  height: 2.5em;
   background: var(--color1); 
   display: block;
   transform: rotate(45deg);
@@ -526,7 +526,7 @@ margin-top: 0px;
 
   h3
   {
-  font-size: 33pt;
+  font-size: 26pt;
   }
 
   hr {
@@ -617,39 +617,34 @@ minion.support
   <label class="modal__bg" for="modal-1"></label>
   <div class="modal__inner" style=" padding-left: 25px; padding-right: 25px;">
     <label class="modal__close" for="modal-1"></label>
-
-
-
+<h3>
+FAQ
+</h3>
 <a>
+<br>
+🟡 After purchase you can command your minions via Email, Telegram or Discord.<br>
+🟡 The minions will fullfill a wide viraty of tasks, you can find a f<br>
+<center>
+<label class="button button1" for="modal-4">List of our services</label>
+</center>
+<br>
+🟡 If a request needs extra funding, you will be informed.<br>
+Example: If you command us to "Buy a Lambo" you would need to provide the funds for the "Lambo"<br>
+🟡 You can pause and resume your subscription as often as you need to ensure you're only paying your minions when you have work available for them.<br>
+🟡 Once subscribed, you're able to add as many design requests to your queue as you'd like, and they will delivered one by one.
+<br>
 
-Why wouldn't I just hire a full-time designer?<br></br>
-Good question! For starters, the annual cost of a full-time senior-level designer now exceeds $100,000, plus benefits (and good luck finding one available). Aside from that, you may not always have enough work to keep them busy at all times, so you're stuck paying for time you aren't able to utilize.<br></br>
-With the monthly plan, you can pause and resume your subscription as often as you need to ensure you're only paying your designer when you have work available for them.<br></br>
-<br></br>
-Is there a limit to how many requests I can have?<br></br>
-Once subscribed, you're able to add as many design requests to your queue as you'd like, and they will delivered one by one.
-<br></br>
-How fast will I receive my designs?<br></br>
-On average, most requests are completed in just two days or less. However, more complex requests can take longer.<br></br>
-<br></br>
-Who are the designers?<br></br>
-You might be surprised to hear this, but Designjoy is actually an agency of one. This means you'll work directly with me, founder of Designjoy. However, power-ups requests such as animations or custom illustrations are provided by partner designers.
-
-What programs do you design in?<br></br>
-Most requests are designed using Figma.<br></br>
-<br></br>
-How do I request designs?<br></br>
-Designjoy offers a ton of flexibility in how you request designs using Trello. Some common ways clients request designs is directly via Trello, sharing Google docs or wireframes, or even recording a brief Loom video (for those who prefer not to write their briefs out). Basically, if it can be linked to or shared in Trello, it's fair game.
-<br></br>
-What if I don't like the design?<br></br>
-No worries! We'll continue to revise the design until you're 100% satisfied.
-<br></br>
-What if I only have a single request?<br></br>
+🟡 What if I don't like the design?<br>
+No worries! We'll continue to revise the design until you're 100% satisfied.<br>
+🟡 What if I only have a single request?<br>
 That's fine. You can pause your subscription when finished and return  when you have additional design needs. There's no need to let the remainder of your subscription go to waste.
-<br></br>
-Are there any refunds if I don't like the service?<br></br>
-Due to the high quality nature of the work, there will be no refunds issued.
+<br>
+🟡 Due to the high quality nature of the work, there will be no refunds issued.<br>
+
 </a>
+
+
+
 
   </div>
 </div>
@@ -682,6 +677,75 @@ Attribution:
   </div>
 </div>
 
+<input class="modal-state" id="modal-4" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-4"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-4"></label>
+<h3>
+Services
+</h3>
+
+
+
+
+<div class="column">
+<div class="content">
+<div align="left">
+  <a>
+Websites<br>
+Mobile apps<br>
+Logos & branding<br>
+Design systems<br>
+SAAS<br>
+Wireframes<br>
+Stationery<br>
+Pitch decks<br>
+Slide decks<br>
+Direct mail<br>
+Infographics<br>
+Brochures<br>
+Signage<br>
+Brand guides<br>
+Migration<br>
+Scrape Data E-mails<br>
+SEO<br>
+    </a>
+<label class="button button1" for="modal-4">Services</label>
+</div>
+</div>
+</div>
+
+<div class="column">
+<div class="content">
+<div align="left">
+  <a>
+Blog graphics<br>
+Digital ads<br>
+Icons<br>
+Content Creation<br>
+Photography<br>
+Copywriting<br>
+UI/UX Design<br>
+User Testing<br>
+Proofreading<br>
+Videography<br>
+Social media graphics<br>
+Billboards<br>
+Trade show banners<br>
+Email graphics<br>
+Resumes<br>
+Business cards<br>
+Packaging<br>
+    </a>
+
+<label class="button button1" for="modal-4">Services</label>
+</div>
+</div>
+</div>
+
+  </div>
+</div>
 
 <div class="main">
 
@@ -699,33 +763,24 @@ Attribution:
 </div>
 </div>
 
-
 <div class="column2">
 <div class="content2">
-
-
-
-
 <div align="center">
 
-<a href="mailto:spam@prim4t.art" class="button button1"> Contact </a>	
+<a href="mailto:support@minion.support" class="button button1"> Contact </a>	
 </div>
 </div>
 </div>
+
 
 <div class="column2">
 <div class="content2">
-
-
-
-
 <div align="center">
 
 <label class="button button1" for="modal-3">About</label>
 </div>
 </div>
 </div>
-
 
 </div>
 
